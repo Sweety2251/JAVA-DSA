@@ -1,0 +1,16 @@
+package array2D;
+
+public class SecondRowSum {
+
+    public static void main(String[] args) {
+        int[][] matrix = { { 1, 4, 9 },
+                { 11, 4, 3 },
+                { 2, 2, 3 } };
+
+        int row = 2;
+        int sum = 0;
+        for(int j=0;j<matrix[0].length;j++){
+            sum += matrix[row][j];
+        }
+    }
+}
